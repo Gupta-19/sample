@@ -1,0 +1,10 @@
+^C:\USERS\91971\ANDROIDSTUDIOPROJECTS\ARCORE-ANDROID-SDK-1.43.0\SAMPLES\HELLO_AR_C\APP\_DEPS\CPPREALM-SUBBUILD\CMAKEFILES\2F5367BCFBC8120ED5950E8FA9386F05\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/cpprealm-subbuild -BC:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/cpprealm-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/cpprealm-subbuild/cpprealm-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

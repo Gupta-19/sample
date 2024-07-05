@@ -1,0 +1,10 @@
+^C:\USERS\91971\ANDROIDSTUDIOPROJECTS\ARCORE-ANDROID-SDK-1.43.0\SAMPLES\HELLO_AR_C\APP\_DEPS\CATCH2-SUBBUILD\CMAKEFILES\22B51140B190C24D2083276FA3DC54AE\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/catch2-subbuild -BC:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/catch2-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/catch2-subbuild/catch2-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

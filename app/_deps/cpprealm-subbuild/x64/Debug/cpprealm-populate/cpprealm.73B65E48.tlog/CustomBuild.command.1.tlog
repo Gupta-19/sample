@@ -1,0 +1,150 @@
+^C:\USERS\91971\ANDROIDSTUDIOPROJECTS\ARCORE-ANDROID-SDK-1.43.0\SAMPLES\HELLO_AR_C\APP\_DEPS\CPPREALM-SUBBUILD\CMAKEFILES\F952CCC1717CF9C753B81C1A7F5FAD35\CPPREALM-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/cpprealm-subbuild/cpprealm-populate-prefix/tmp/cpprealm-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/cpprealm-subbuild/cpprealm-populate-prefix/src/cpprealm-populate-stamp/Debug/cpprealm-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\91971\ANDROIDSTUDIOPROJECTS\ARCORE-ANDROID-SDK-1.43.0\SAMPLES\HELLO_AR_C\APP\_DEPS\CPPREALM-SUBBUILD\CMAKEFILES\F952CCC1717CF9C753B81C1A7F5FAD35\CPPREALM-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\91971\AndroidStudioProjects\arcore-android-sdk-1.43.0\samples\hello_ar_c\app\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/cpprealm-subbuild/cpprealm-populate-prefix/tmp/cpprealm-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/cpprealm-subbuild/cpprealm-populate-prefix/src/cpprealm-populate-stamp/Debug/cpprealm-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\91971\ANDROIDSTUDIOPROJECTS\ARCORE-ANDROID-SDK-1.43.0\SAMPLES\HELLO_AR_C\APP\_DEPS\CPPREALM-SUBBUILD\CMAKEFILES\F952CCC1717CF9C753B81C1A7F5FAD35\CPPREALM-POPULATE-UPDATE.RULE
+setlocal
+cd C:\Users\91971\AndroidStudioProjects\arcore-android-sdk-1.43.0\samples\hello_ar_c\app\_deps\cpprealm-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/cpprealm-subbuild/cpprealm-populate-prefix/tmp/cpprealm-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\91971\ANDROIDSTUDIOPROJECTS\ARCORE-ANDROID-SDK-1.43.0\SAMPLES\HELLO_AR_C\APP\_DEPS\CPPREALM-SUBBUILD\CMAKEFILES\F952CCC1717CF9C753B81C1A7F5FAD35\CPPREALM-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/cpprealm-subbuild/cpprealm-populate-prefix/src/cpprealm-populate-stamp/Debug/cpprealm-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\91971\ANDROIDSTUDIOPROJECTS\ARCORE-ANDROID-SDK-1.43.0\SAMPLES\HELLO_AR_C\APP\_DEPS\CPPREALM-SUBBUILD\CMAKEFILES\F952CCC1717CF9C753B81C1A7F5FAD35\CPPREALM-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\91971\AndroidStudioProjects\arcore-android-sdk-1.43.0\samples\hello_ar_c\app\_deps\cpprealm-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/cpprealm-subbuild/cpprealm-populate-prefix/src/cpprealm-populate-stamp/Debug/cpprealm-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\91971\ANDROIDSTUDIOPROJECTS\ARCORE-ANDROID-SDK-1.43.0\SAMPLES\HELLO_AR_C\APP\_DEPS\CPPREALM-SUBBUILD\CMAKEFILES\F952CCC1717CF9C753B81C1A7F5FAD35\CPPREALM-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\91971\AndroidStudioProjects\arcore-android-sdk-1.43.0\samples\hello_ar_c\app\_deps\cpprealm-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/cpprealm-subbuild/cpprealm-populate-prefix/src/cpprealm-populate-stamp/Debug/cpprealm-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\91971\ANDROIDSTUDIOPROJECTS\ARCORE-ANDROID-SDK-1.43.0\SAMPLES\HELLO_AR_C\APP\_DEPS\CPPREALM-SUBBUILD\CMAKEFILES\F952CCC1717CF9C753B81C1A7F5FAD35\CPPREALM-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\91971\AndroidStudioProjects\arcore-android-sdk-1.43.0\samples\hello_ar_c\app\_deps\cpprealm-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/cpprealm-subbuild/cpprealm-populate-prefix/src/cpprealm-populate-stamp/Debug/cpprealm-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\91971\ANDROIDSTUDIOPROJECTS\ARCORE-ANDROID-SDK-1.43.0\SAMPLES\HELLO_AR_C\APP\_DEPS\CPPREALM-SUBBUILD\CMAKEFILES\F952CCC1717CF9C753B81C1A7F5FAD35\CPPREALM-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\91971\AndroidStudioProjects\arcore-android-sdk-1.43.0\samples\hello_ar_c\app\_deps\cpprealm-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/cpprealm-subbuild/cpprealm-populate-prefix/src/cpprealm-populate-stamp/Debug/cpprealm-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\91971\ANDROIDSTUDIOPROJECTS\ARCORE-ANDROID-SDK-1.43.0\SAMPLES\HELLO_AR_C\APP\_DEPS\CPPREALM-SUBBUILD\CMAKEFILES\B5BF4A0C87694D9BA80C42E8BDD08D17\CPPREALM-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/cpprealm-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/cpprealm-subbuild/CMakeFiles/Debug/cpprealm-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/cpprealm-subbuild/cpprealm-populate-prefix/src/cpprealm-populate-stamp/Debug/cpprealm-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\91971\ANDROIDSTUDIOPROJECTS\ARCORE-ANDROID-SDK-1.43.0\SAMPLES\HELLO_AR_C\APP\_DEPS\CPPREALM-SUBBUILD\CMAKEFILES\2F5367BCFBC8120ED5950E8FA9386F05\CPPREALM-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\91971\ANDROIDSTUDIOPROJECTS\ARCORE-ANDROID-SDK-1.43.0\SAMPLES\HELLO_AR_C\APP\_DEPS\CPPREALM-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/cpprealm-subbuild -BC:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/cpprealm-subbuild --check-stamp-file C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/cpprealm-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,150 @@
+^C:\USERS\91971\ANDROIDSTUDIOPROJECTS\ARCORE-ANDROID-SDK-1.43.0\SAMPLES\HELLO_AR_C\APP\_DEPS\LIBUV-SUBBUILD\CMAKEFILES\7C586C289B3FF754C1F1BCDF6936506A\LIBUV-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/libuv-subbuild/libuv-populate-prefix/tmp/libuv-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/libuv-subbuild/libuv-populate-prefix/src/libuv-populate-stamp/Debug/libuv-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\91971\ANDROIDSTUDIOPROJECTS\ARCORE-ANDROID-SDK-1.43.0\SAMPLES\HELLO_AR_C\APP\_DEPS\LIBUV-SUBBUILD\CMAKEFILES\7C586C289B3FF754C1F1BCDF6936506A\LIBUV-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\91971\AndroidStudioProjects\arcore-android-sdk-1.43.0\samples\hello_ar_c\app\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/libuv-subbuild/libuv-populate-prefix/tmp/libuv-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/libuv-subbuild/libuv-populate-prefix/src/libuv-populate-stamp/Debug/libuv-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\91971\ANDROIDSTUDIOPROJECTS\ARCORE-ANDROID-SDK-1.43.0\SAMPLES\HELLO_AR_C\APP\_DEPS\LIBUV-SUBBUILD\CMAKEFILES\7C586C289B3FF754C1F1BCDF6936506A\LIBUV-POPULATE-UPDATE.RULE
+setlocal
+cd C:\Users\91971\AndroidStudioProjects\arcore-android-sdk-1.43.0\samples\hello_ar_c\app\_deps\libuv-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/libuv-subbuild/libuv-populate-prefix/tmp/libuv-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\91971\ANDROIDSTUDIOPROJECTS\ARCORE-ANDROID-SDK-1.43.0\SAMPLES\HELLO_AR_C\APP\_DEPS\LIBUV-SUBBUILD\CMAKEFILES\7C586C289B3FF754C1F1BCDF6936506A\LIBUV-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/libuv-subbuild/libuv-populate-prefix/src/libuv-populate-stamp/Debug/libuv-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\91971\ANDROIDSTUDIOPROJECTS\ARCORE-ANDROID-SDK-1.43.0\SAMPLES\HELLO_AR_C\APP\_DEPS\LIBUV-SUBBUILD\CMAKEFILES\7C586C289B3FF754C1F1BCDF6936506A\LIBUV-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\91971\AndroidStudioProjects\arcore-android-sdk-1.43.0\samples\hello_ar_c\app\_deps\libuv-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/libuv-subbuild/libuv-populate-prefix/src/libuv-populate-stamp/Debug/libuv-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\91971\ANDROIDSTUDIOPROJECTS\ARCORE-ANDROID-SDK-1.43.0\SAMPLES\HELLO_AR_C\APP\_DEPS\LIBUV-SUBBUILD\CMAKEFILES\7C586C289B3FF754C1F1BCDF6936506A\LIBUV-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\91971\AndroidStudioProjects\arcore-android-sdk-1.43.0\samples\hello_ar_c\app\_deps\libuv-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/libuv-subbuild/libuv-populate-prefix/src/libuv-populate-stamp/Debug/libuv-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\91971\ANDROIDSTUDIOPROJECTS\ARCORE-ANDROID-SDK-1.43.0\SAMPLES\HELLO_AR_C\APP\_DEPS\LIBUV-SUBBUILD\CMAKEFILES\7C586C289B3FF754C1F1BCDF6936506A\LIBUV-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\91971\AndroidStudioProjects\arcore-android-sdk-1.43.0\samples\hello_ar_c\app\_deps\libuv-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/libuv-subbuild/libuv-populate-prefix/src/libuv-populate-stamp/Debug/libuv-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\91971\ANDROIDSTUDIOPROJECTS\ARCORE-ANDROID-SDK-1.43.0\SAMPLES\HELLO_AR_C\APP\_DEPS\LIBUV-SUBBUILD\CMAKEFILES\7C586C289B3FF754C1F1BCDF6936506A\LIBUV-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\91971\AndroidStudioProjects\arcore-android-sdk-1.43.0\samples\hello_ar_c\app\_deps\libuv-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/libuv-subbuild/libuv-populate-prefix/src/libuv-populate-stamp/Debug/libuv-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\91971\ANDROIDSTUDIOPROJECTS\ARCORE-ANDROID-SDK-1.43.0\SAMPLES\HELLO_AR_C\APP\_DEPS\LIBUV-SUBBUILD\CMAKEFILES\E74DBA65343ED4E5F17D7F83D3DC14B9\LIBUV-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/libuv-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/libuv-subbuild/CMakeFiles/Debug/libuv-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/libuv-subbuild/libuv-populate-prefix/src/libuv-populate-stamp/Debug/libuv-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\91971\ANDROIDSTUDIOPROJECTS\ARCORE-ANDROID-SDK-1.43.0\SAMPLES\HELLO_AR_C\APP\_DEPS\LIBUV-SUBBUILD\CMAKEFILES\553B487D7B2CAA6674B5693476482B01\LIBUV-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\91971\ANDROIDSTUDIOPROJECTS\ARCORE-ANDROID-SDK-1.43.0\SAMPLES\HELLO_AR_C\APP\_DEPS\LIBUV-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/libuv-subbuild -BC:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/libuv-subbuild --check-stamp-file C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/libuv-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

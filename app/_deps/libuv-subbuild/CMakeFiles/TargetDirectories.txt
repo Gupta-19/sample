@@ -1,0 +1,3 @@
+C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/libuv-subbuild/CMakeFiles/libuv-populate.dir
+C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/libuv-subbuild/CMakeFiles/ALL_BUILD.dir
+C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/libuv-subbuild/CMakeFiles/ZERO_CHECK.dir

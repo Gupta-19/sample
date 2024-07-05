@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\91971\AndroidStudioProjects\arcore-android-sdk-1.43.0\samples\hello_ar_c\app\_deps\libuv-subbuild\CMakeFiles\7c586c289b3ff754c1f1bcdf6936506a\libuv-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\91971\AndroidStudioProjects\arcore-android-sdk-1.43.0\samples\hello_ar_c\app\_deps\libuv-subbuild\CMakeFiles\7c586c289b3ff754c1f1bcdf6936506a\libuv-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\91971\AndroidStudioProjects\arcore-android-sdk-1.43.0\samples\hello_ar_c\app\_deps\libuv-subbuild\CMakeFiles\7c586c289b3ff754c1f1bcdf6936506a\libuv-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\91971\AndroidStudioProjects\arcore-android-sdk-1.43.0\samples\hello_ar_c\app\_deps\libuv-subbuild\CMakeFiles\7c586c289b3ff754c1f1bcdf6936506a\libuv-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\91971\AndroidStudioProjects\arcore-android-sdk-1.43.0\samples\hello_ar_c\app\_deps\libuv-subbuild\CMakeFiles\7c586c289b3ff754c1f1bcdf6936506a\libuv-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\91971\AndroidStudioProjects\arcore-android-sdk-1.43.0\samples\hello_ar_c\app\_deps\libuv-subbuild\CMakeFiles\7c586c289b3ff754c1f1bcdf6936506a\libuv-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\91971\AndroidStudioProjects\arcore-android-sdk-1.43.0\samples\hello_ar_c\app\_deps\libuv-subbuild\CMakeFiles\7c586c289b3ff754c1f1bcdf6936506a\libuv-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\91971\AndroidStudioProjects\arcore-android-sdk-1.43.0\samples\hello_ar_c\app\_deps\libuv-subbuild\CMakeFiles\7c586c289b3ff754c1f1bcdf6936506a\libuv-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\91971\AndroidStudioProjects\arcore-android-sdk-1.43.0\samples\hello_ar_c\app\_deps\libuv-subbuild\CMakeFiles\e74dba65343ed4e5f17d7f83d3dc14b9\libuv-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\91971\AndroidStudioProjects\arcore-android-sdk-1.43.0\samples\hello_ar_c\app\_deps\libuv-subbuild\CMakeFiles\553b487d7b2caa6674b5693476482b01\libuv-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\91971\AndroidStudioProjects\arcore-android-sdk-1.43.0\samples\hello_ar_c\app\_deps\libuv-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\91971\AndroidStudioProjects\arcore-android-sdk-1.43.0\samples\hello_ar_c\app\_deps\libuv-subbuild\CMakeFiles\libuv-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F6D59029-E81D-3314-8010-972DDCC33E3D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/catch2-subbuild/CMakeFiles/catch2-populate"
+		},
+		{
+			"file" : "C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/catch2-subbuild/CMakeFiles/22b51140b190c24d2083276fa3dc54ae/catch2-populate.rule"
+		},
+		{
+			"file" : "C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/catch2-subbuild/CMakeFiles/da31298f76a36c0df9ac524ce26d2b12/catch2-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/catch2-subbuild/CMakeFiles/dcee46ed34a0d902ddfd099376442f67/catch2-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/catch2-subbuild/CMakeFiles/dcee46ed34a0d902ddfd099376442f67/catch2-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/catch2-subbuild/CMakeFiles/dcee46ed34a0d902ddfd099376442f67/catch2-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/catch2-subbuild/CMakeFiles/dcee46ed34a0d902ddfd099376442f67/catch2-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/catch2-subbuild/CMakeFiles/dcee46ed34a0d902ddfd099376442f67/catch2-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/catch2-subbuild/CMakeFiles/dcee46ed34a0d902ddfd099376442f67/catch2-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/catch2-subbuild/CMakeFiles/dcee46ed34a0d902ddfd099376442f67/catch2-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/catch2-subbuild/CMakeFiles/dcee46ed34a0d902ddfd099376442f67/catch2-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"catch2-populate"
+		],
+		"name" : "catch2-populate"
+	}
+}

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/libuv-subbuild/CMakeFiles/libuv-populate"
+		},
+		{
+			"file" : "C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/libuv-subbuild/CMakeFiles/553b487d7b2caa6674b5693476482b01/libuv-populate.rule"
+		},
+		{
+			"file" : "C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/libuv-subbuild/CMakeFiles/e74dba65343ed4e5f17d7f83d3dc14b9/libuv-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/libuv-subbuild/CMakeFiles/7c586c289b3ff754c1f1bcdf6936506a/libuv-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/libuv-subbuild/CMakeFiles/7c586c289b3ff754c1f1bcdf6936506a/libuv-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/libuv-subbuild/CMakeFiles/7c586c289b3ff754c1f1bcdf6936506a/libuv-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/libuv-subbuild/CMakeFiles/7c586c289b3ff754c1f1bcdf6936506a/libuv-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/libuv-subbuild/CMakeFiles/7c586c289b3ff754c1f1bcdf6936506a/libuv-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/libuv-subbuild/CMakeFiles/7c586c289b3ff754c1f1bcdf6936506a/libuv-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/libuv-subbuild/CMakeFiles/7c586c289b3ff754c1f1bcdf6936506a/libuv-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/libuv-subbuild/CMakeFiles/7c586c289b3ff754c1f1bcdf6936506a/libuv-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"libuv-populate"
+		],
+		"name" : "libuv-populate"
+	}
+}

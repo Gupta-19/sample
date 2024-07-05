@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/cpprealm-subbuild/CMakeFiles/cpprealm-populate"
+		},
+		{
+			"file" : "C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/cpprealm-subbuild/CMakeFiles/2f5367bcfbc8120ed5950e8fa9386f05/cpprealm-populate.rule"
+		},
+		{
+			"file" : "C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/cpprealm-subbuild/CMakeFiles/b5bf4a0c87694d9ba80c42e8bdd08d17/cpprealm-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/cpprealm-subbuild/CMakeFiles/f952ccc1717cf9c753b81c1a7f5fad35/cpprealm-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/cpprealm-subbuild/CMakeFiles/f952ccc1717cf9c753b81c1a7f5fad35/cpprealm-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/cpprealm-subbuild/CMakeFiles/f952ccc1717cf9c753b81c1a7f5fad35/cpprealm-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/cpprealm-subbuild/CMakeFiles/f952ccc1717cf9c753b81c1a7f5fad35/cpprealm-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/cpprealm-subbuild/CMakeFiles/f952ccc1717cf9c753b81c1a7f5fad35/cpprealm-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/cpprealm-subbuild/CMakeFiles/f952ccc1717cf9c753b81c1a7f5fad35/cpprealm-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/cpprealm-subbuild/CMakeFiles/f952ccc1717cf9c753b81c1a7f5fad35/cpprealm-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/91971/AndroidStudioProjects/arcore-android-sdk-1.43.0/samples/hello_ar_c/app/_deps/cpprealm-subbuild/CMakeFiles/f952ccc1717cf9c753b81c1a7f5fad35/cpprealm-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"cpprealm-populate"
+		],
+		"name" : "cpprealm-populate"
+	}
+}
